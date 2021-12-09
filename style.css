@@ -18,12 +18,13 @@
   align-items: center;
   background: #111;
   color: #fff;
-  transition: 0.5s;
+  transition: 1s;
   z-index: 2;
 }
 
 .showcase.active {
   right: 300px;
+  transition: 1s;
 }
 
 .showcase header {
@@ -59,6 +60,7 @@
   background-size: 30px;
   background-position: center;
   cursor: pointer;
+  transition: 0.5s ease-out;
 }
 
 .toggle.active {
@@ -70,6 +72,7 @@
   background-size: 25px;
   background-position: center;
   cursor: pointer;
+  transition: 0.5s ease-out;
 }
 
 .showcase video {
